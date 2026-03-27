@@ -1,30 +1,19 @@
-import { createClient } from "@supabase/supabase-js";
-
 export default async function handler(req, res) {
-
-  const supabase = createClient(
-    process.env.URL,
-    process.env.KEY,
-    {
-      auth: {
-        persistSession: false
-      },
-      global: {
+  try {
+    const response = await fetch(
+      "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/stock",
+      {
         headers: {
           apikey: process.env.KEY,
-          Authorization: `Bearer ${process.env.KEY}`
-        }
+          Authorization: `Bearer ${process.env.KEY}`,
+        },
       }
-    }
-  );
+    );
 
-  const { data, error } = await supabase
-    .from("stock")
-    .select("*");
+    const data = await response.json();
 
-  if (error) {
-    return res.status(500).json(error);
+    res.status(200).json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
-
-  res.status(200).json(data);
 }
