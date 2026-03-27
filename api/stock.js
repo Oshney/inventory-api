@@ -3,11 +3,11 @@ export default async function handler(req, res) {
     const response = await fetch(
       "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/stock",
       {
-        method: "GET", // 👈 add this
+        method: "GET",
         headers: {
           apikey: process.env.KEY,
           Authorization: `Bearer ${process.env.KEY}`,
-          "Content-Type": "application/json", // 👈 IMPORTANT
+          "Content-Type": "application/json",
         },
       }
     );
