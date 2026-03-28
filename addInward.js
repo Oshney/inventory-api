@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     }
 
     // 🔥 👉 YAHAN APNI SUPABASE ANON KEY DALNI HAI
-    const SUPABASE_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY_HERE";
+    const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxvY3J6eHV1YmJiaXd0b2VmeWh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ1MjA5OTUsImV4cCI6MjA5MDA5Njk5NX0.Eki2ztxyTdyh-hIgWj5IlRdvI1xBWUpbPwaw1X3dnF4";
 
     const response = await fetch(
       "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/inwards",
