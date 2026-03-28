@@ -6,8 +6,7 @@ export default async function handler(req, res) {
         method: "GET",
         headers: {
           apikey: process.env.KEY,
-          Authorization: `Bearer ${process.env.KEY}`,
-          "Content-Type": "application/json"
+          Authorization: `Bearer ${process.env.KEY}`
         }
       }
     );
