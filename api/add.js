@@ -1,10 +1,10 @@
 export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Only POST allowed" });
-  }
-
   try {
-    const { item, qty } = req.body;
+    if (req.method !== "POST") {
+      return res.status(405).json({ error: "Only POST allowed" });
+    }
+
+    const { item, qty, type } = req.body;
 
     const response = await fetch(
       "https://locrzxuubbbiwtoefyht.supabase.co/rest/v1/stock",
@@ -16,7 +16,7 @@ export default async function handler(req, res) {
           "Content-Type": "application/json",
           Prefer: "return=representation"
         },
-        body: JSON.stringify([{ item, qty }]),
+        body: JSON.stringify([{ item, qty, type }])
       }
     );
 
@@ -24,12 +24,10 @@ export default async function handler(req, res) {
 
     res.status(200).json({
       message: "Added successfully",
-      data: data
+      data
     });
 
   } catch (err) {
-    res.status(500).json({
-      error: err.message,
-    });
+    res.status(500).json({ error: err.message });
   }
 }
