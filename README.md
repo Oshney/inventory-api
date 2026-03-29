@@ -65,26 +65,28 @@ Google Sheets → Apps Script → Vercel API → Supabase PostgreSQL
 ## 📸 Screenshots
 
 ### INWARDS Sheet — Stock Entry from Supplier
-![Inwards](INWARDS%20GOOGLE%20SHEET%20.jpg)
+![Inwards](screenshots/INWARDS%20GOOGLE%20SHEET%20.jpg)
+
 ### OUTWARDS Sheet — Sales Entry to Customer
-![Outwards](OUTWARDS%20GOOGLE%20SHEET.jpg)
+![Outwards](screenshots/OUTWARDS%20GOOGLE%20SHEET.jpg)
+
 ### STOCK Sheet — Real-time Color Coded Stock
-![Stock](STOCK%20COUNT%20SHEET.jpg)
+![Stock](screenshots/STOCK%20COUNT%20SHEET.jpg)
 
 ### Supabase Database — PostgreSQL Tables
-![Supabase](SUPABASE%20DATABASE%20STRUCTURE.jpg)
+![Supabase](screenshots/SUPABASE%20DATABASE%20STRUCTURE.jpg)
 
 ### Apps Script — Execution Log
-![Apps Script](APP%20SCRIPT%20WORKING%20SCREENSHORT.jpg)
+![Apps Script](screenshots/APP%20SCRIPT%20WORKING%20SCREENSHORT.jpg)
 
 ### Vercel — Live Deployment
-![Vercel](VERCEL%20DEPLOYMENT.jpg)
+![Vercel](screenshots/VERCEL%20DEPLOYMENT.jpg)
 
 ### Telegram — Low Stock Alert
-![Telegram](BOT%20ALERT%20LOW%20STOCK%20TELEGRAM.jpg)
+![Telegram](screenshots/BOT%20ALERT%20LOW%20STOCK%20TELEGRAM.jpg)
 
 ### Gmail — Low Stock Alert
-![Gmail](GMAIL%20ALERT%20SYSTEM%20LOW%20STOCK.jpg)
+![Gmail](screenshots/GMAIL%20ALERT%20SYSTEM%20LOW%20STOCK.jpg)
 ---
 
 ## 📊 SQL Analysis Examples
