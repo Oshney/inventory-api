@@ -201,7 +201,7 @@ github.com/Oshney/inventory-api
 
 **Oshney Singh Thakur**  
 Aspiring Data Analyst  
-[GitHub](https://github.com/Oshney)
+[GitHub](https://github.com/Oshney/inventory-data-pipeline)
 ```
 
 ---
