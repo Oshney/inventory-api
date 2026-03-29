@@ -138,14 +138,36 @@ POST https://inventory-api-indol.vercel.app/api/addOutward
 ## 📁 Project Structure
 ```
 inventory-api/
-├── pages/
-│   └── api/
-│       ├── addInward.js    ← Save inward entries to Supabase
-│       ├── addOutward.js   ← Save outward entries to Supabase
-│       └── stock.js        ← Return all stock data
+├── api/
+│   ├── addInward.js      ← Save inward entries to Supabase
+│   ├── addOutward.js     ← Save outward entries to Supabase
+│   └── stock.js          ← Return all stock data
 ├── apps-script/
-│   └── Code.gs             ← Google Apps Script automation
+│   └── Code.gs           ← Google Apps Script automation
+├── screenshots/
+│   └── ...               ← Project screenshots
+├── README.md
 └── package.json
+```
+```
+
+**Commit karo!**
+
+---
+
+**Ab tumhara GitHub poora professional hai:**
+
+| File | Kaam |
+|------|------|
+| `api/` | Vercel API routes ✅ |
+| `apps-script/Code.gs` | Automation code ✅ |
+| `screenshots/` | Project visuals ✅ |
+| `README.md` | Documentation ✅ |
+| `package.json` | Vercel config ✅ |
+
+**GitHub link share karne ke liye ready hai!** 🚀
+```
+github.com/Oshney/inventory-api
 ```
 
 ---
