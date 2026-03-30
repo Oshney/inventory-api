@@ -7,7 +7,7 @@
 ![Automation](https://img.shields.io/badge/Automation-Google%20Apps%20Script-4285F4?style=flat-square)
 ![Alerts](https://img.shields.io/badge/Alerts-Telegram%20Bot-26A5E4?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Production%20Running-success?style=flat-square)
-![Email](https://img.shields.io/badge/Email-Gmail-red?style=flat-square&logo=gmail)
+[![Alert](https://img.shields.io/badge/Alert-Email-red?style=flat-square&logo=gmail)](mailto:your_email@gmail.com?subject=Alert&body=This%20is%20an%20alert%20message)
 
 ---
 
